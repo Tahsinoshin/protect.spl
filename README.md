@@ -1,2 +1,2 @@
 # protect.spl
-this a personal repository
+3rd semester spl project
