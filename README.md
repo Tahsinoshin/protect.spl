@@ -3,7 +3,7 @@
 
 to add more client in the process,
 
-open makefile and add an command
+open makefile and add an similar extra command line
 
 To Run the project-WHITEBOARD ,
 
