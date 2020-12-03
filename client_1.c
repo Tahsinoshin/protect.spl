@@ -214,7 +214,7 @@ void sending_message_handler() {
 //            fclose(fp);
 
         } else {
-            sprintf(message,"%s:%s\n",name,buffer);
+            sprintf(message,"%s:%s",name,buffer);
             //send(sockfd,message,strlen(message),0);
             write(sockfd,message,strlen(message));
         }
@@ -264,7 +264,7 @@ int main(int argc,char **argv) {
 
     sockfd=socket(AF_INET,SOCK_STREAM,0);
     server_addr.sin_family=AF_INET;
-    server_addr.sin_addr.s_addr=INADDR_ANY;
+    server_addr.sin_addr.s_addr=inet_addr(argv[1]);
     server_addr.sin_port=htons(port);
 
     printf("before connecting\n");
