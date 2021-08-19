@@ -94,7 +94,7 @@ char *strdup(const char *s) {
 
 
 
-//completing chat  //eta best one e nai
+//completing chat  
 
 /*void str_trim_lf(char* array,int length){
 	for(int i=0;i<length;i++)
