@@ -16,5 +16,6 @@
 
 6. Now users can send text, share files, set own nickname, send private messages using
    user id, see active clients counts which will be exhibited on the server window.
+7. To test, if file can be sent or not, I also attached a demo file named file.txt to check that case.
   
 
