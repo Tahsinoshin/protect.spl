@@ -379,7 +379,7 @@ void *handle_client( void *arg) {
 
             continue;
         }
-        //ajk ei porjnto 12.06.20
+        
 
 
         //experimental area
